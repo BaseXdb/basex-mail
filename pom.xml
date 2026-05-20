@@ -69,6 +69,10 @@
             <goals>
               <goal>copy-dependencies</goal>
             </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/classes/lib</outputDirectory>
+              <includeScope>runtime</includeScope>
+            </configuration>
           </execution>
         </executions>
       </plugin>

@@ -13,7 +13,7 @@ import module namespace mail = 'http://basex.org/modules/mail';
 
 mail:send({
   'host': 'smtp.your-mail-provider.org',
-  'ssl': 'true',
+  'ssl': true(),
   'user': 'from@your-mail-provider.org',
   'password': '...',
   'from': 'from@your-mail-provider.org',
